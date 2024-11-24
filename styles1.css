@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f1ff; /* Light blue background */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f5f5f5; /* Light gray for sections */
+    border-radius: 10px;
+    
+}
+
+h2 {
+    color: #2a2a2a; /* Dark gray for headings */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer */
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2a2a2a; /* Dark gray background */
+    color: white; /* White text */
+    padding: 20px; /* Spacing inside the footer */
+    margin-top: 40px; /* Space above the footer */
+    font-size: 14px; /* Slightly smaller text */
+    border-top: 3px solid #6c63ff; /* Purple border to separate footer */
+}
+
+footer p {
+    margin: 5px 0; /* Space between footer lines */
+}
+
+footer a {
+    color: #6c63ff; /* Purple color for links */
+    text-decoration: none; /* Remove underline for links */
+    font-weight: 500; /* Slightly bold links */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+footer a:hover {
+    color: white; /* Change to white when hovered */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #2a2a
+}
+html {
+    scroll-behavior: smooth; /* Smooth scrolling */
+  }
